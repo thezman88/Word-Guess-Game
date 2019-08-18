@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Guess Guy</title>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">  <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+<!-- background -->
+
+<!-- title  -->
+<div class="row">
+  <div class="col-12 text-center">
+    <h1 class="display-1 text-warning">The Psychic Game</h1>
+    <h3 class="lead">Guess what Letter I'm thinking of</h3>
+
+  </div>
+
+</div>
+<!-- score -->
+  <div class="row text-center mt-4">
+    <div class="col-6 border">
+      <h3>Wins</h3>
+      <div class="populate" id="winCount">
+          0
+        </div>
+    </div>
+    <div class="col-6 border">
+      <h3>Losses</h3>
+      <div class="populate" id="lossCount">
+          0
+        </div>
+    </div>
+  </div>
+
+
+
+<!-- guesses -->
+<div class="row text-center mt-4">
+  <div class="col-6 border">
+    <h3>Guesses Left</h3>
+    <div class="populate" id="guessesRemaining">
+          20
+        </div>
+  </div>
+<div class="col-6 border">
+  <h3>Guesses So Far</h3>
+  <div class="populate" id="guessedLetters">
+        Enter a letter...
+      </div>
+</div>
+</div>
+
+
+
+
+
+
+
+
+  <script src="assets/javascript/game.js"></script>
+
+</body>
+
+</html>
